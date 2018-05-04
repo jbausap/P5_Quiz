@@ -6,5 +6,5 @@ exports.index = ( req, res, next) => {
             res.render("quizzes.js", {quizzes})
 
         })
-        .catch( error => next (error));
+        .cacth( error => next (error));
 }
